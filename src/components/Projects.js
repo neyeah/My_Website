@@ -5,42 +5,36 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     title: 'E-Commerce App',
-    description: 'A modern e-commerce platform.',
     image: 'https://i.postimg.cc/GmNX54TD/Screenshot-2024-07-26-at-15-08-32.png',
     github: 'https://github.com/neyeah',
     demo: 'https://astren.co/'
   },
   {
     title: 'Job Search App',
-    description: 'A job search application.',
     image: 'https://i.postimg.cc/MZM0mv43/Screenshot-2024-07-26-at-15-04-28.png',
     github: 'https://github.com/neyeah',
     demo: 'https://www.feedbank.ai/'
   },
   {
     title: 'Management Information System',
-    description: 'A MIS for monitoring and evaluation.',
     image: 'https://i.postimg.cc/DyHn5vjT/Screenshot-2024-07-29-at-10-19-04.png',
     github: 'https://github.com/neyeah',
     demo: 'https://www.ideasmis.com/'
   },
   {
     title: 'Movie App',
-    description: 'A movie database application.',
     image: 'https://i.postimg.cc/6qNHB1R2/93-E77-F1-B-29-C2-4-D9-D-8-B60-73-BF56599-CF5.jpg',
     github: 'https://github.com/neyeah/Movie-App.git',
     demo: 'https://neyes-movieapp.netlify.app/'
   },
   {
     title: 'Housing Project',
-    description: 'A modern housing project.',
     image: 'https://i.postimg.cc/qRFp0fZ4/Screenshot-2024-10-21-at-10-25-59.png',
     github: 'https://github.com/neyeah/casavera.git',
     demo: 'https://casavera.vercel.app/'
   },
   {
     title: 'DEX Platform',
-    description: 'A multi-chain DEX platform.',
     image: 'https://i.postimg.cc/5jdns7xf/Screenshot-2024-11-26-at-09-44-32.png',
     github: 'https://github.com/neyeah/moonex.git',
     demo: 'https://moonex-iota.vercel.app/'
@@ -115,7 +109,6 @@ function ProjectCard({ project, index }) {
       
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 dark:text-white">{project.title}</h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
       </div>
     </motion.div>
   );
