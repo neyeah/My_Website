@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, Phone, CheckCircle, Github, Linkedin, Twitter } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -70,6 +71,22 @@ export default function Contact() {
               title="Location"
               content="Abuja, Nigeria"
             />
+            
+            {/* Social Icons */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mt-8"
+            >
+              <h3 className="text-2xl font-semibold text-gray-700 dark:text-gray-300 mb-4">Let's Connect</h3>
+              <div className="flex justify-start space-x-4">
+                <SocialIcon icon={<Github className="w-6 h-6" />} href="https://github.com/neyeah" />
+                <SocialIcon icon={<Linkedin className="w-6 h-6" />} href="https://linkedin.com/in/neyeah" />
+                <SocialIcon icon={<Twitter className="w-6 h-6" />} href="https://twitter.com/neyehh" />
+                <SocialIcon icon={<Mail className="w-6 h-6" />} href="mailto:arohchinenye895@gmail.com" />
+              </div>
+            </motion.div>
           </motion.div>
 
           <motion.form
@@ -171,5 +188,20 @@ function ContactInfo({ icon, title, content, href }) {
         )}
       </div>
     </motion.div>
+  );
+}
+
+function SocialIcon({ icon, href }) {
+  return (
+    <motion.a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+    >
+      {icon}
+    </motion.a>
   );
 }
