@@ -50,7 +50,7 @@ export default function Hero() {
             className="flex-1 flex justify-center"
           >
             <img
-              src="https://i.postimg.cc/G34hBBqf/IMG-0421.jpg"
+              src="https://i.postimg.cc/wM3b1DWC/IMG-0421.jpg"
               alt="Aroh Chinenye"
               className="rounded-lg shadow-2xl dark:shadow-purple-500/10 max-w-xs sm:max-w-sm md:max-w-md"
             />
