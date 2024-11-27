@@ -25,7 +25,7 @@ const projects = [
     title: 'Movie App',
     image: 'https://i.postimg.cc/6qNHB1R2/93-E77-F1-B-29-C2-4-D9-D-8-B60-73-BF56599-CF5.jpg',
     github: 'https://github.com/neyeah/Movie-App.git',
-    demo: 'https://neyes-movieapp.netlify.app/'
+    demo: 'https://movie-app-alpha-seven-72.vercel.app/',
   },
   {
     title: 'Housing Project',
