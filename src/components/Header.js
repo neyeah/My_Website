@@ -32,7 +32,7 @@ export default function Header() {
         <div className="hidden md:flex items-center space-x-8 mx-auto">
           <NavLink href="#about">About</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#skills-experience">Skills and Experience</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
           <div className="container mx-auto px-6 py-4 space-y-4">
             <NavLink href="#about" onClick={() => setMenuOpen(false)}>About</NavLink>
             <NavLink href="#projects" onClick={() => setMenuOpen(false)}>Projects</NavLink>
-            <NavLink href="#skills" onClick={() => setMenuOpen(false)}>Skills</NavLink>
+            <NavLink href="#skills-experience" onClick={() => setMenuOpen(false)}>Skills</NavLink>
             <NavLink href="#contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
             <div className="pt-4">
               <ThemeToggle />

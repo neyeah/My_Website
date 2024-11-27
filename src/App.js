@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Skills from './components/SkillsAndExperience';
 import Contact from './components/Contact';
 import { ThemeProvider } from './context/ThemeContext';
+import SkillsAndExperience from './components/SkillsAndExperience';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <main>
           <Hero />
           <Projects />
-          <Skills />
+          <SkillsAndExperience />
           <Contact />
         </main>
         <footer className="bg-gray-50 dark:bg-gray-800 py-8">
