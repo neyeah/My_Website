@@ -68,9 +68,6 @@ export default function Header() {
             <NavLink href="#projects" onClick={() => setMenuOpen(false)}>Projects</NavLink>
             <NavLink href="#skills-experience" onClick={() => setMenuOpen(false)}>Skills</NavLink>
             <NavLink href="#contact" onClick={() => setMenuOpen(false)}>Contact</NavLink>
-            <div className="pt-4">
-              <ThemeToggle />
-            </div>
           </div>
         </motion.div>
       )}
