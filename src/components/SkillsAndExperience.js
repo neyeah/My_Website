@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 
 const skills = [
   'React',
+  'Next.js',
+  'TypeScript',
   'Tailwind CSS',
   'RESTful APIs',
   'D3.js',
@@ -14,6 +16,7 @@ const skills = [
   'Figma',
   'HTML5',
   'CSS3',
+  'Vercel',
   'SASS',
   'JavaScript',
   'Web Performance Optimization'

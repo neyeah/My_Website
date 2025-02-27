@@ -4,6 +4,25 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Company Website',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740391831/Screenshot_2025-02-24_at_11.05.26_sbnjgc.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://seismicconsults.com'
+  },
+  {
+    title: 'Annual School Census',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740392326/Screenshot_2025-02-24_at_11.18.32_onotul.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://adamawa.govedutrack.com/'
+  },
+  {
+    title: 'Budget And Fiscal Planning',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740645688/Screenshot_2025-02-27_at_09.41.16_swnlrv.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://www.thefpbs.com/'
+  },
+  {
+    
     title: 'E-Commerce App',
     image: 'https://i.postimg.cc/GmNX54TD/Screenshot-2024-07-26-at-15-08-32.png',
     github: 'https://github.com/neyeah',
@@ -22,22 +41,22 @@ const projects = [
     demo: 'https://www.ideasmis.com/'
   },
   {
-    title: 'Movie App',
-    image: 'https://i.postimg.cc/6qNHB1R2/93-E77-F1-B-29-C2-4-D9-D-8-B60-73-BF56599-CF5.jpg',
-    github: 'https://github.com/neyeah/Movie-App.git',
-    demo: 'https://movie-app-alpha-seven-72.vercel.app/',
-  },
-  {
     title: 'Housing Project',
     image: 'https://i.postimg.cc/qRFp0fZ4/Screenshot-2024-10-21-at-10-25-59.png',
     github: 'https://github.com/neyeah/casavera.git',
     demo: 'https://casavera.vercel.app/'
   },
   {
-    title: 'DEX Platform',
-    image: 'https://i.postimg.cc/5jdns7xf/Screenshot-2024-11-26-at-09-44-32.png',
-    github: 'https://github.com/neyeah/moonex.git',
-    demo: 'https://moonex-iota.vercel.app/'
+    title: 'Healthcare Dashboard',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740391829/Screenshot_2025-02-24_at_11.07.41_btw03s.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://healthcare-dashboard-inky.vercel.app/'
+  },
+  {
+    title: 'Movie App',
+    image: 'https://i.postimg.cc/6qNHB1R2/93-E77-F1-B-29-C2-4-D9-D-8-B60-73-BF56599-CF5.jpg',
+    github: 'https://github.com/neyeah/Movie-App.git',
+    demo: 'https://movie-app-alpha-seven-72.vercel.app/',
   },
 ];
 

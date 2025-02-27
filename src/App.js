@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import Skills from './components/SkillsAndExperience';
 import Contact from './components/Contact';
 import { ThemeProvider } from './context/ThemeContext';
 import SkillsAndExperience from './components/SkillsAndExperience';
