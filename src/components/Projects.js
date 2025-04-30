@@ -10,18 +10,6 @@ const projects = [
     demo: 'https://seismicconsults.com'
   },
   {
-    title: 'Annual School Census',
-    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740392326/Screenshot_2025-02-24_at_11.18.32_onotul.png',
-    github: 'https://github.com/neyeah',
-    demo: 'https://adamawa.govedutrack.com/'
-  },
-  {
-    title: 'Budget And Fiscal Planning',
-    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740645688/Screenshot_2025-02-27_at_09.41.16_swnlrv.png',
-    github: 'https://github.com/neyeah',
-    demo: 'https://www.thefpbs.com/'
-  },
-  {
     
     title: 'E-Commerce App',
     image: 'https://i.postimg.cc/GmNX54TD/Screenshot-2024-07-26-at-15-08-32.png',
@@ -57,6 +45,18 @@ const projects = [
     image: 'https://i.postimg.cc/6qNHB1R2/93-E77-F1-B-29-C2-4-D9-D-8-B60-73-BF56599-CF5.jpg',
     github: 'https://github.com/neyeah/Movie-App.git',
     demo: 'https://movie-app-alpha-seven-72.vercel.app/',
+  },
+  {
+    title: 'Annual School Census',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740392326/Screenshot_2025-02-24_at_11.18.32_onotul.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://adamawa.govedutrack.com/'
+  },
+  {
+    title: 'Budget And Fiscal Planning',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740645688/Screenshot_2025-02-27_at_09.41.16_swnlrv.png',
+    github: 'https://github.com/neyeah',
+    demo: 'https://www.thefpbs.com/'
   },
 ];
 
