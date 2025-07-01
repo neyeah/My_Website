@@ -4,6 +4,21 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'MindViza',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1751382207/Screenshot_2025-07-01_at_16.03.11_aypjpw.png',
+    demo: 'https://mindviza.com'
+  },
+  {
+    title: 'MedConnet',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1751382896/Screenshot_2025-07-01_at_16.14.38_jgzygo.png',
+    demo: 'https://medconnet.io'
+  },
+  {
+    title: 'Hospital ERP',
+    image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1751382785/Screenshot_2025-07-01_at_16.12.47_hoziye.png',
+    demo: 'https://v0-hospital-erp-eo.vercel.app/'
+  },
+  {
     title: 'Company Website',
     image: 'https://res.cloudinary.com/dxhx45ing/image/upload/v1740391831/Screenshot_2025-02-24_at_11.05.26_sbnjgc.png',
     github: 'https://github.com/neyeah',
